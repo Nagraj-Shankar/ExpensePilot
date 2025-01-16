@@ -64,10 +64,8 @@ function Hero() {
       <div className='flex items-center flex-col'>
           <Image src={'./logo.svg'}
           alt='logo'
-          width={150}
-          height={110}
-          className='sm:w-5 h-4 lg:w-16 h-14 p-2'
-          />
+          width={130}
+          height={90} />
           <h1 className='lg:text-3xl sm:text-xl font-extrabold text-primary'>Expense<span className='text-blue-800'>Pilot</span></h1>
             </div>
     <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
