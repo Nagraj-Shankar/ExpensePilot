@@ -15,8 +15,9 @@ function Header() {
       alt='logo'
       width={150}
       height={110}
+      className='sm:w-5 h-4 lg:w-16 h-14 p-2'
       />
-      <h1 className='text-3xl font-extrabold text-primary'>Expense<span className='text-blue-800'>Pilot</span></h1>
+      <h1 className='lg:text-3xl sm:text-xl font-extrabold text-primary'>Expense<span className='text-blue-800'>Pilot</span></h1>
         </div>
       {isSignedIn?
       <UserButton/> :
